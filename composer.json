@@ -1,0 +1,31 @@
+{
+    "name": "magenxcommerce/module-configurable-product-sales",
+    "description": "N/A",
+    "require": {
+        "php": "~7.0.13|~7.1.0",
+        "magenxcommerce/module-catalog": "102.0.*",
+        "magenxcommerce/module-sales": "101.0.*",
+        "magenxcommerce/module-store": "100.2.*",
+        "magenxcommerce/framework": "101.0.*"
+    },
+    "suggest": {
+        "magenxcommerce/module-configurable-product": "100.2.*"
+    },
+    "type": "magento2-module",
+    "version": "100.2.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\ConfigurableProductSales\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-configurable-product-sales": "*"
+    }
+}
